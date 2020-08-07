@@ -14,4 +14,7 @@ Bom, ao fim do meu curso técnico fomos designados a junto com as turmas de Admi
 - Sistema de FGTS e PI
 - Calculo da hora extra na folha de pagamento
 
-Print do sistema: https://prnt.sc/tvgz1n
+<p align="center">
+  <label>Print do sistema:</label>
+  <img src="https://user-images.githubusercontent.com/32386767/89689508-eda97f80-d8da-11ea-9bed-04ce3eefacb8.png" alt="Sistema"/>
+</p>
