@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BBFBB70-E11C-4411-8F43-A6CBDD3D28FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NSF.TCC.Sundown.Model</RootNamespace>
+    <AssemblyName>NSF.TCC.Sundown.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MAPEAMENTOS\DTOs\CONFIGURAÇÕES\DTOPrecoIngresso.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\CONTABILIDADE\DTOContabilidade.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOBenefit.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOCargos.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTODemitidos.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOFolhaDePagamento.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\LOGISTICA\DTOFornecedor.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\CONFIGURAÇÕES\DTOFuncionarioDoMes.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOParceiros.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\COMPRAS\DTOPedidoItem.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\COMPRAS\DTOPedidoItem2.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\ACESSO\DTOPermission.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\PONTO\DTOPonto.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\COMPRAS\DTOPedido.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\CONFIGURAÇÕES\DTOPrecoSessao.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOSalarioBruto.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOSector.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\CONFIGURAÇÕES\DTOSessao.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOTerceirizado.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\RH\DTOUser.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\VENDAS\DTOIngressoFliperama.cs" />
+    <Compile Include="MAPEAMENTOS\DTOs\VENDAS\DTOIngressoSessao.cs" />
+    <Compile Include="MAPEAMENTOS\VIEWS\VENDAS\ViewConsultaCinema.cs" />
+    <Compile Include="MAPEAMENTOS\VIEWS\VENDAS\ViewConsultaFliperama.cs" />
+    <Compile Include="MAPEAMENTOS\VIEWS\VENDAS\ViewMeia.cs" />
+    <Compile Include="MAPEAMENTOS\VIEWS\VENDAS\ViewsVendasIngresso.cs" />
+    <Compile Include="MAPEAMENTOS\VOs\VENDAS\VOCadeiraIngressoCinema.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MAPEAMENTOS\VIEWS\FINANCEIRO\ViewFluxo.cs" />
+    <Compile Include="MAPEAMENTOS\VOs\RH\VOConsultarFolha.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MAPEAMENTOS\DTOs\CHAT\" />
+    <Folder Include="MAPEAMENTOS\DTOs\FINANCEIRO\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\ACESSO\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\CHAT\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\COMPRAS\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\CONFIGURAÇÕES\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\LOGISTICA\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\PONTO\" />
+    <Folder Include="MAPEAMENTOS\VIEWS\RH\" />
+    <Folder Include="MAPEAMENTOS\VOs\ACESSO\" />
+    <Folder Include="MAPEAMENTOS\VOs\CHAT\" />
+    <Folder Include="MAPEAMENTOS\VOs\COMPRAS\" />
+    <Folder Include="MAPEAMENTOS\VOs\CONFIGURAÇÕES\" />
+    <Folder Include="MAPEAMENTOS\VOs\FINANCEIRO\" />
+    <Folder Include="MAPEAMENTOS\VOs\LOGISTICA\" />
+    <Folder Include="MAPEAMENTOS\VOs\PONTO\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

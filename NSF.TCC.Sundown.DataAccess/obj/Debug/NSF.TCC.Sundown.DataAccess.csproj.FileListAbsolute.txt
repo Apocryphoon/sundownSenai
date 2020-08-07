@@ -1,0 +1,9 @@
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\bin\Debug\NSF.TCC.Sundown.DataAccess.dll
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\bin\Debug\NSF.TCC.Sundown.DataAccess.pdb
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\bin\Debug\MySql.Data.dll
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\bin\Debug\NSF.TCC.Sundown.Model.dll
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\bin\Debug\NSF.TCC.Sundown.Model.pdb
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\bin\Debug\MySql.Data.xml
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\obj\Debug\NSF.TCC.Sundown.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\obj\Debug\NSF.TCC.Sundown.DataAccess.dll
+C:\Users\INSTITUTO\Source\Repos\sundown\Nsf.Tcc.Sundown\NSF.TCC.Sundown.DataAccess\obj\Debug\NSF.TCC.Sundown.DataAccess.pdb
