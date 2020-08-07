@@ -14,10 +14,11 @@ Bom, ao fim do meu curso técnico fomos designados a junto com as turmas de Admi
 - Sistema de FGTS e PI
 - Calculo da hora extra na folha de pagamento
 
+# MER
+
+Segue uma imagem com o MER de todo o sistema aonde demonstra toda a sintax e conexão do banco.
 
 <p align="center">
-  <b>
-  <label>MER do sistema:</label>
   <img src="https://user-images.githubusercontent.com/32386767/89689508-eda97f80-d8da-11ea-9bed-04ce3eefacb8.png" alt="Sistema" height="600" width="900"/>
 </p>
 
