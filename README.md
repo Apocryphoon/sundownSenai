@@ -17,11 +17,12 @@ Bom, ao fim do meu curso técnico fomos designados a junto com as turmas de Admi
 
 <p align="center">
   <b>
-  <label>Print do sistema:</label>
+  <label>MER do sistema:</label>
   <img src="https://user-images.githubusercontent.com/32386767/89689508-eda97f80-d8da-11ea-9bed-04ce3eefacb8.png" alt="Sistema" height="600" width="900"/>
 </p>
 
 # Créditos:
+
 - Ricardo (Apocryphoon)
 - GuilhermeBDM
 - Duarte
